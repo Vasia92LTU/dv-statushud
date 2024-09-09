@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Clau">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De-V-altu</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <!-- Main HUD -->
+    <div class="status">
+        <div class="status-item">
+            <i id="vest" class="fas fa-vest"></i>
+            <h1 class="vestjs">0%</h1>
+        </div>
+
+        <div class="status-item">
+            <i id="vidaicon" class="fas fa-heartbeat"></i>
+            <h1 class="vidajs">25%</h1>
+        </div>
+        <!-- Label for Main HUD -->
+        <div class="hud-label">Status</div>
+    </div>
+
+    <!-- Container for thirst and hunger -->
+    <div class="needs-status">
+        <div class="status-item">
+            <i id="water" class="fas fa-glass"></i>
+            <h1 class="waterjs">100%</h1>
+        </div>
+
+        <div class="status-item">
+            <i id="burger" class="fas fa-hamburger"></i>
+            <h1 class="burgerjs">90%</h1>
+        </div>
+        <!-- Label for Needs Status -->
+        <div class="hud-label">Needs</div>
+    </div>
+
+    <!-- Container for oxygen and stamina -->
+    <div class="oxygen-stamina-status">
+        <div class="status-item">
+            <i id="oxy" class="fas fa-lungs"></i>
+            <h1 class="oxyjs">55%</h1>
+        </div>
+
+        <div class="status-item">
+            <i id="run" class="fas fa-running"></i>
+            <h1 class="runjs">45%</h1>
+        </div>
+        <!-- Label for Oxygen and Stamina Status -->
+        <div class="hud-label">Stamina</div>
+    </div>
+
+    <div id="minimap">
+        <div class="hud-label">MINIMAP</div>
+        <!-- Minimap content here -->
+    </div>
+</body>
+
+
+
+</html>
