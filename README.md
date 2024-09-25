@@ -15,5 +15,8 @@ A dynamic and stylish HUD for QBCore that displays player's vital status indicat
    ```plaintext
    ensure dv-statushud
 
+---
 
-![1](https://github.com/user-attachments/assets/1c5845b2-d6b0-4176-a1df-5035ce41c687)
+![STATUSHUD 540x540](https://github.com/user-attachments/assets/30e0636d-1d45-4fcb-a850-7bc6831cc7d2)
+
+---
